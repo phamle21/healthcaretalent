@@ -1,0 +1,137 @@
+#login_form-block .formcol-item .formtitle {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #3f4048;
+}
+#login_form-block form.login_form label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3f4048;
+    display: block;
+    margin-bottom: 7px;
+}
+#login_form-block form.login_form label .formhelp {
+    margin-left: 3px;
+    cursor: help;
+}
+#login_form-block form.login_form label .formhelp::before {
+    content: '\f059';
+    font-family: "Font Awesome 5 Pro";
+    color: #706f6f;
+}
+#login_form-block form.login_form .col-field:not(:last-child) {
+    margin-bottom: 20px;
+}
+#login_form-block form.login_form input[type="text"],
+#login_form-block form.login_form input[type="password"] {
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-bottom: 1px solid #1c1e263d;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #3f4048;
+    font-weight: 400;
+    line-height: 20px;
+}
+#login_form-block form.login_form .col-field.remember input[type="checkbox"] {
+    display: none;
+}
+#login_form-block form.login_form .col-field.remember label {
+    background-color: #f8f8f8;
+    border: 1px solid #9b9b9b;
+    padding: 11px 12px 11px 48px;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.1);
+    display: block;
+    line-height: 1.6;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    box-sizing: border-box;
+    color: #3f4048;
+}
+#login_form-block form.login_form .col-field.remember input:checked + label {
+    background-color: #44b480;
+    border-color: #44b480;
+    color: #fff;
+}
+#login_form-block form.login_form .col-field.remember label::before {
+    content: '\f0c8';
+    font-family: "Font Awesome 5 Pro";
+    height: 24px;
+    width: 24px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+}
+#login_form-block form.login_form .col-field.remember input:checked + label::before {
+    content: '\f14a';
+}
+#login_form-block form.login_form .col-field.submit {
+    margin-top: 30px;
+}
+#login_form-block form.login_form .col-field.submit button[type="submit"] {
+    background-color: #236594;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding: 14px 24px;
+    letter-spacing: 0.3px;
+    outline: none;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+#login_form-block form.login_form .col-inlineor {
+    margin: 20px 0 18px;
+    text-align: center;
+}
+#login_form-block form.login_form .col-inlineor::before {
+    content: '';
+    display: block;
+    background-color: #cccccc;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: 1px;
+}
+#login_form-block form.login_form .col-inlineor span {
+    width: 50px;
+    display: inline-block;
+    background-color: #f5f5f5;
+}
+#login_form-block form.login_form .linkanothers {
+    margin-top: 10px;
+}
+#login_form-block form.login_form .linkanothers > a {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding: 17px 20px 16px;
+    color: var(--primary-btn-color);
+    text-align: center;
+    border: 2px solid var(--primary-btn-color);
+    display: block;
+}
+#login_form-block form.login_form .linkanothers > a:hover {
+    background-color: rgba(18, 67, 149, 0.1);
+}
+#login_form-block form.login_form .linkanothers > a i {
+    color: #0079ba;
+    margin-right: 20px;
+    font-size: 22px;
+}

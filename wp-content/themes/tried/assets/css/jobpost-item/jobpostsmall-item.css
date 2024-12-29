@@ -1,0 +1,122 @@
+.jobsmall-item > .wrap  {
+    padding: 20px;
+    background-color: #fff;
+}
+.jobsmall-item .box-contain .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 26px;
+    padding-right: 60px;
+}
+.jobsmall-item .box-contain .title,
+.jobsmall-item .box-contain .title a {
+    color: #000;
+}
+.jobsmall-item .box-contain .title:hover a {
+    text-decoration: underline;
+}
+.jobsmall-item .box-contain .headjob {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.jobsmall-item .box-contain .headjob > li {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+}
+.jobsmall-item .box-contain .headjob > li:last-child {
+    display: inline-block;
+    margin-right: 0;
+}
+.jobsmall-item .box-contain .headjob > li a {
+    color: #226594;
+}
+.jobsmall-item .box-contain .meta {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 48px;
+}
+.jobsmall-item .box-contain .meta > li,
+.jobsmall-item .box-contain .meta > li a {
+    color: #3f4048;
+}
+.jobsmall-item .box-contain .meta > li::before {
+    content: '';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    width: 25px;
+    display: inline-block;
+}
+.jobsmall-item .box-contain .meta > li.location::before {
+    content: '\f3c5';
+}
+.jobsmall-item .box-contain .meta > li.sector::before {
+    content: '\f0b1';
+}
+.jobsmall-item .box-contain .meta > li.expired::before {
+    content: '\f017';
+}
+.jobsmall-item .box-contain .meta > li.salary::before {
+    content: '\f3d1';
+}
+.jobsmall-item .box-contain .actions {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.jobsmall-item .box-contain .actions > a {
+    width: 36px;
+    height: 34px;
+    border: 1px solid #eeeded;
+    background-color: var(--primary-btn-color);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.jobsmall-item .box-contain .actions > a:hover {
+    background-color: var(--second-btn-color);
+    border-color: #C2D1D9;
+}
+.jobsmall-item .box-contain .actions > a.savejob {
+    background-color: #fff;
+    color: var(--primary-btn-color);
+    margin-right: 5px;
+}
+.jobsmall-item .box-contain .actions > a.savejob.active,
+.jobsmall-item .box-contain .actions > a.savejob:hover {
+    background-color: #fff;
+}
+.jobsmall-item .box-contain .actions > a.savejob.active::before,
+.jobsmall-item .box-contain .actions > a.savejob:hover::before {
+    font-weight: 700;
+    color: #e86925;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .jobsmall-item .box-contain .title {
+        font-size: 18px;
+        line-height: 20px;
+        height: 40px;
+    }
+    .jobsmall-item .box-contain .actions {
+        top: 0;
+    }
+    .jobsmall-item .box-contain .meta {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+    .jobsmall-item > .wrap {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,103 @@
+.event-item > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.event-item > .wrap  {
+    padding: 10px;
+}
+.event-item .featured-image {
+    height: 240px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.event-item .featured-image img {
+    height: 100%;
+    object-fit: cover;
+}
+.event-item .box-contain {
+    margin-top: 15px;
+}
+.event-item .box-contain .date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1C1E26;
+}
+.event-item .box-contain .title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.event-item .box-contain .content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 44px;
+    color: #0E0F14;
+}
+.event-item .box-contain .terms a {
+    color: var(--main-color-theme);
+    font-size: 14px;
+    font-weight: 500;
+}
+.event-item .box-contain .meta {
+    display: inline-block;
+}
+.event-item .box-contain .meta li {
+    float: left;
+    color: #3f4048;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.event-item .box-contain .meta li span {
+    text-transform: capitalize;
+}
+.event-item .box-contain .meta li:not(:first-child)::before {
+    content: '|';
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media only screen and (max-width: 767px) {
+    .event-item .featured-image {
+        height: 120px;
+    }
+    .event-item .box-contain .title {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        height: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .event-item .box-contain .content {
+        font-size: 13px;
+        line-height: 16px;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+    .event-item .box-contain .meta li {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .event-item > .wrap {
+        padding: 0;
+    }
+}

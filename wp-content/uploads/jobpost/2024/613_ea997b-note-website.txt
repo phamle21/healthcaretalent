@@ -1,0 +1,24 @@
+Yêu cầu cần có:
+- bộ lọc sản phẩm
+- tìm kiếm sản phẩm theo từ khoá, mã sản phẩm, theo từ khóa thông dụng(ví dụ: laptop i3, máy tính bảng lenovo, điện thoại cảm ứng,...)
+- flashsale theo khung giờ
+- thông số kỹ thuật
+- khách hàng thân thiết(thiết lập rank, tích điểm khi thanh toán)
+- tính năng tồn kho & hiển thị 'hiện có tại cửa hàng' trên trang chi tiết sản phẩm
+- khung khuyến mãi online
+ + hiển thị nhãn sản phẩm ở các trang
+ + khung hiển thị trên trang chi tiết sản phẩm
+ + khung hiển thị ở trang chủ, gồm: thời gian kết thúc(đếm ngược), số suất đã bán của sản phẩm, tiêu đề/hình ảnh,..
+- tính năng thiết lập khuyến mãi cho một hoặc một số cửa hàng áp dụng
+- float button chat với khách hàng(messager, zalo, gọi trực tiếp)
+Yêu cầu thêm:
+- thông báo thời gian thực trên trang admin(pusher)
+- tính năng so sánh sản phẩm
+- xem sản phẩm 360 độ
+- đăng nhập bằng số điện thoại hoặc email
+- tính năng yêu thích sản phẩm(wishlist)
+- danh sách sản phẩm gợi ý
+- danh sách sản phẩm bán kèm(combo)
+- tính năng máy cũ giá rẻ
+- tinh năng thu cũ đổi mới
+- tính năng tracking order

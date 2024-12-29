@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M10,3.7857,7.9948,7.8777l-4.4813.6547L6.7581,11.72l-.7657,4.4943L10,14.092l4.01,2.12-.7657-4.4942,3.2419-3.1849-4.4813-.6547Zm-.8583-.7639a.9668.9668,0,0,1,1.7166,0L12.8112,6.9l4.3693.624A.9329.9329,0,0,1,17.71,9.1236l-3.1611,3.0172.7476,4.2621a.9532.9532,0,0,1-1.3876.9872L10,15.3777,6.0912,17.39a.9525.9525,0,0,1-1.3876-.9872l.7476-4.2621L2.29,9.1236A.9329.9329,0,0,1,2.82,7.5242L7.1888,6.9Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="1.7219" y="2.3217" width="16.5562" height="15.4288"/>
+    </clipPath>
+  </defs>
+  <title>MP - Star</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <image width="70" height="65" transform="translate(1.64 2.28) scale(0.24)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABBCAIAAADjSUVrAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA30lEQVRoQ+2asQ3CUAwFH8hTIHZIRUWbOVKzABIbshXHCL+NT77azZPt5x87l+3zjYjXfr+uYvpRwCqmFaTiUpRQcWkCX+GFikwSKZmiJLYsAb5eis3xxh6aYMuS1R5kkvDZQ1I2Qb7CG3togfOr1lh4rjSNPbRg7KED6AqPUOgqT9dLs23tgNQeXJKUozY+Ex97OD/Et0CW7vH4rWJ64csSsf2dMvbQBN8bT5klmSSE9yVn4Y09nB3lqE3F92y19ZJvLgVsvYQxSz5Jc4zpgO8Yg3KdUu/jsYrqxHO7/QFZi8IA2dhZwQAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+</svg>

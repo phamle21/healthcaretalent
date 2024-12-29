@@ -1,0 +1,26 @@
+.site-main .main-contain.login-register > .wrapper {
+    background-color: #d2e0e9;
+    max-width: 100%;
+    padding: 90px 0;
+}
+.form-login_register {
+    background-color: #fff;
+    max-width: 440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 20px 24px -5px #1213160a, 0px 8px 8px -6px #1213160a;
+    padding: 30px 20px;
+}
+.form-login_register .linksignaccount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.form-login_register .linksignaccount a {
+    color: #236494;
+}
+@media only screen and (max-width: 767px) {
+    .site-main .main-contain.login-register > .wrapper {
+        padding: 60px 10px;
+    }
+}

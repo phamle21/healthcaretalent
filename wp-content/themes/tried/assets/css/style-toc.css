@@ -1,0 +1,67 @@
+#toc {
+    z-index: 2;
+}
+#toc .toc-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 68px;
+    word-break: break-word;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 68px;
+    padding: 0 10px 0 20px;
+    margin: 0 0 5px;
+    border-bottom: 1px solid #d2d2d2;
+    cursor: pointer;
+}
+#toc .toc-title::before {
+    content: '\f03a';
+    font-family: "Font Awesome 5 Pro";
+    color: #0174b7;
+    margin-right: 10px;
+}
+#toc .toc-title::after {
+    content: '';
+    position: absolute;
+    top: 28px;
+    right: 16px;
+    float: initial;
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    background: 0 0;
+    border-top: 2px solid #d2d2d2;
+    border-right: 2px solid #d2d2d2;
+    transform: rotate(-45deg) translate(-2px,2px);
+    transition: transform .3s;
+}
+#toc.closed .toc-title::after {
+    transform: rotate(135deg) translate(-2px,2px);
+}
+#toc .toc-nav {
+    display: block;
+}
+#toc.closed .toc-nav {
+    display: none;
+}
+#toc .toc-nav ul.root {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+#toc .toc-nav li {
+    padding: 5px 0 5px 25px;
+}
+#toc .toc-nav a {
+    padding: 7px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: .3px;
+    color: #000;
+}
+#toc .toc-nav a:hover {
+    text-decoration: underline;
+}

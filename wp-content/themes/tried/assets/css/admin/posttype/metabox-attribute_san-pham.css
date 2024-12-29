@@ -1,0 +1,60 @@
+#tableProdAttribute {
+    width: 100%;
+    counter-reset: tableProdAttribute-counter;
+  }
+  #tableProdAttribute a:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  #tableProdAttribute thead {
+    background-color: red;
+    color: #fff;
+  }
+  #tableProdAttribute th,
+  #tableProdAttribute td {
+    padding: 10px;
+  }
+  #tableProdAttribute thead th:last-child {
+    width: 70px;
+  }
+  #tableProdAttribute thead th:first-child {
+    width: 40px;
+  }
+  #tableProdAttribute thead th:nth-child(2),
+  #tableProdAttribute thead th:nth-child(3),
+  #tableProdAttribute thead th:nth-child(4) {
+    width: 150px;
+  }
+  #tableProdAttribute thead th:nth-child(5) {
+    width: 300px;
+  }
+  #tableProdAttribute tbody td {
+    border: none;
+    border-bottom: 1px solid #f4f4f4;
+  }
+  #tableProdAttribute tbody td:first-child,
+  #tableProdAttribute tbody td:last-child {
+    text-align: center;
+  }
+  #tableProdAttribute tbody td:first-child::before {
+    counter-increment: tableProdAttribute-counter;
+    content: "#" counter(tableProdAttribute-counter);
+    color: green;
+  }
+  #tableProdAttribute:not(.empty) tbody tr.none-result {
+    display: none;
+  }
+  #tableProdAttribute tbody tr.none-result td:first-child::before {
+    font-size: 0;
+  }
+  #tableProdAttribute tbody tr:nth-child(even) {
+    background-color: #ececec;
+  }
+  #tableProdAttribute tbody tr:hover {
+    background-color: #d6d6d6;
+  }
+  #tableProdAttribute tbody tr select,
+  .select2.select2-container {
+    width: 100%;
+  }

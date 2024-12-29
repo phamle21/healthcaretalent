@@ -1,0 +1,40 @@
+.site-breadcrumbs {
+    display: none!important;
+}
+.main-contain.account .banner-account {
+    padding: 40px 0;
+    background-color: #0371a0;
+}
+.main-contain.account .banner-account .wrapper {
+    padding: 0 10px;
+}
+.main-contain.account .banner-account .back-to-dashboard {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.main-contain.account .banner-account .back-to-dashboard:hover span {
+    text-decoration: underline;
+}
+.main-contain.account .banner-account .back-to-dashboard::before {
+    content: '\f060';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.main-contain.account .banner-account .banner-titlepage {
+    font-size: 42px;
+    line-height: 1.19;
+    font-weight: 700;
+    color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .main-contain.account .banner-account .banner-titlepage {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,86 @@
+.review-item .wrap {
+    background-color: #fff;
+    padding: 50px 20px 20px;
+    border-radius: 15px;
+    border: 1px solid #d4dfe9;
+    margin-top: 30px;
+}
+.review-item .wrap::before {
+    content: '';
+    background-image: url(../../img/ico-quotecircle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: block;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: -28px;
+}
+.review-item .info-contain .content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 72px;
+}
+.review-item .info-contain .author {
+    display: grid;
+    grid-template-columns: 70px auto;
+    align-items: center;
+    margin-top: 15px;
+    padding-right: 150px;
+    border-top: 1px solid #1c1e261f;
+    padding-top: 15px;
+}
+.review-item .info-contain .author img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.review-item .info-contain .author h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.review-item .info-contain .author h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.review-item .info-contain .logo {
+    width: 115px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.review-item .info-contain .logo img {
+    height: 100%;
+    object-position: left;
+}
+@media only screen and (max-width: 767px) {
+    .review-item .info-contain .content {
+        font-size: 14px;
+        line-height: 20px;
+        -webkit-line-clamp: 4;
+        height: 80px;
+    }
+    .review-item .info-contain .author {
+        padding-right: 0;
+    }
+    .review-item .info-contain .author h4 {
+        font-size: 15px;
+    }
+    .review-item .info-contain .author h5 {
+        font-size: 13px;
+    }
+    .review-item .info-contain .logo {
+        position: relative;
+		margin-top: 10px;
+    }
+}

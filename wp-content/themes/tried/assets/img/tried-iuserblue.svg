@@ -1,0 +1,39 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M10,3.4375A2.8126,2.8126,0,1,1,7.2143,6.25,2.8037,2.8037,0,0,1,10,3.4375ZM10,10A3.75,3.75,0,1,0,6.2857,6.25,3.732,3.732,0,0,0,10,10Zm5.5714,6.0938a.4679.4679,0,0,1-.4643.4687H4.8929a.4679.4679,0,0,1-.4643-.4687V14.875a2.9878,2.9878,0,0,1,2.9714-3,13.74,13.74,0,0,0,2.6.4688,13.79,13.79,0,0,0,2.6-.4688,2.9878,2.9878,0,0,1,2.9714,3ZM12.6,10.9375c-.8328,0-1.2333.4687-2.6.4687s-1.7643-.4687-2.6-.4687A3.92,3.92,0,0,0,3.5,14.875v1.2188A1.4,1.4,0,0,0,4.8929,17.5H15.1071A1.4,1.4,0,0,0,16.5,16.0938V14.875A3.92,3.92,0,0,0,12.6,10.9375Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="3" y="2" width="14" height="16"/>
+    </clipPath>
+  </defs>
+  <title>MP - Profile</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <g class="cls-4">
+        <g class="cls-4">
+          <g class="cls-4">
+            <image width="59" height="68" transform="translate(2.84 1.8) scale(0.24)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAABECAIAAACwM9rwAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA+klEQVRoQ+2aOw7CQAxEJ5HvX3MY2lSkgAOgNJCeHIChWHpXG+2TPLWLJ8uz/min2/Ozboc4inU7LtdXFjaQ5ixgOPGIQ5btLGwghWSRgBW2hEIOybSqsAQjhgErbLOQW45hxKa9FeW83irn9VeImGMeMYm3nHeGkB2EtoMIVxU2bhLC5bic113AC4tF7Hmosgjamlc3oRNEdB7udZOIzkMhI51HI6Y9x8x7he1vFjaQeM6bSbCSynlnqOWYRSxajpk9LwsaSsCq4DmPWMcs4P/djTUJAa+xsLII2rAJnI+b82DEdY3trDBtCeE5j/ebd1ru7+WxZ2ED6Qdkfc1EdPXq2gAAAABJRU5ErkJggg=="/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

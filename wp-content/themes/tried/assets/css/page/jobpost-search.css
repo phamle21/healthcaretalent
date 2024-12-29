@@ -1,0 +1,13 @@
+.main-contain.jobpost-search {
+    background-color: #fff;
+}
+.main-contain.jobpost-search > .wrapper {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 0;
+}
+@media only screen and (max-width: 767px) {
+    .main-contain.jobpost-search > .wrapper {
+        padding-top: 0 !important;
+    }
+}

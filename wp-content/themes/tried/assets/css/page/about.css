@@ -1,0 +1,24 @@
+body .site-main .about .wrapper {
+    max-width: unset;
+}
+.site-main .main-contain.about > .wrapper {
+    max-width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+body .upload_job_description-form input,
+body .upload_job_description-form select,
+body .request_callback-form input,
+body .request_callback-form select {
+    width: 100%;
+}
+.site-main .widget-component > section:not(:first-child) {
+    padding-top: 40px!important;
+    padding-bottom: 40px!important;
+}
+@media only screen and (max-width: 767px) {
+    .page-content {
+        padding-top: 50px;
+    }
+}

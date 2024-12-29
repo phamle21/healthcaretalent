@@ -1,0 +1,73 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-6 {
+        fill: #727272;
+      }
+
+      .cls-7 {
+        stroke: #727272;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-6);
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="0.5" y="0.5" width="19" height="19" rx="2" ry="2"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="-19.5" y="-19.5" width="59" height="59"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect class="cls-1" x="0.5" y="0.5" width="19" height="19"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect class="cls-1" x="2.5" y="2.5" width="15" height="15"/>
+    </clipPath>
+  </defs>
+  <title>Checkbox - Off V2</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <g class="cls-4">
+        <g class="cls-2">
+          <g class="cls-5">
+            <rect class="cls-6" x="0.5" y="0.5" width="19" height="19" rx="2" ry="2"/>
+          </g>
+        </g>
+        <g class="cls-5">
+          <rect class="cls-7" x="0.5" y="0.5" width="19" height="19" rx="2" ry="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="cls-8">
+    <rect class="cls-9" x="-2.5" y="-2.5" width="25" height="25"/>
+  </g>
+</svg>

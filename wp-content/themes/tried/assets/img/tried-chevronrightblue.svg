@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #124395;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>MP Hover - Right</title>
+  <circle class="cls-1" cx="15" cy="15" r="15"/>
+  <path class="cls-2" d="M17.8575,15.332l-4.7448,4.53a.4944.4944,0,0,1-.6847,0l-.286-.2773a.4591.4591,0,0,1,0-.6639L16.2625,15,12.146,11.0789a.4591.4591,0,0,1,0-.6639l.286-.2773a.4944.4944,0,0,1,.6847,0l4.7448,4.53A.4626.4626,0,0,1,17.8575,15.332Z"/>
+</svg>

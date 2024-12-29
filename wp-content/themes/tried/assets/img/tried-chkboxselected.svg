@@ -1,0 +1,82 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-6 {
+        fill: #727272;
+      }
+
+      .cls-7 {
+        stroke: #727272;
+        stroke-width: 4px;
+      }
+
+      .cls-10, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-6);
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        stroke: #fff;
+        stroke-width: 0.5px;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(1.5 1.5)">
+      <rect class="cls-1" x="0.5" y="0.5" width="19" height="19" rx="2" ry="2"/>
+    </clipPath>
+    <clipPath id="clip-path-2" transform="translate(1.5 1.5)">
+      <rect class="cls-1" x="-19.5" y="-19.5" width="59" height="59"/>
+    </clipPath>
+    <clipPath id="clip-path-4" transform="translate(1.5 1.5)">
+      <rect class="cls-1" x="0.5" y="0.5" width="19" height="19"/>
+    </clipPath>
+    <clipPath id="clip-path-6" transform="translate(1.5 1.5)">
+      <path class="cls-1" d="M15.2872,6.16a.5447.5447,0,0,0-.77,0L7.9914,12.6852,5.4831,10.1768a.5447.5447,0,1,0-.77.77l2.8934,2.8934a.5448.5448,0,0,0,.77,0L15.2872,6.93A.5447.5447,0,0,0,15.2872,6.16Z"/>
+    </clipPath>
+  </defs>
+  <title>Checkbox - Selected</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <g class="cls-4">
+        <g class="cls-2">
+          <g class="cls-5">
+            <rect class="cls-6" x="2" y="2" width="19" height="19" rx="2" ry="2"/>
+          </g>
+        </g>
+        <g class="cls-5">
+          <rect class="cls-7" x="2" y="2" width="19" height="19" rx="2" ry="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="cls-8">
+    <rect class="cls-9" x="1.0532" y="2.5" width="20.8935" height="18"/>
+  </g>
+  <path class="cls-10" d="M15.2872,6.16a.5447.5447,0,0,0-.77,0L7.9914,12.6852,5.4831,10.1768a.5447.5447,0,1,0-.77.77l2.8934,2.8934a.5448.5448,0,0,0,.77,0L15.2872,6.93A.5447.5447,0,0,0,15.2872,6.16Z" transform="translate(1.5 1.5)"/>
+</svg>

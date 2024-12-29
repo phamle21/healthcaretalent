@@ -1,0 +1,177 @@
+.site-breadcrumbs,
+.banner-advice {
+    background-color: #f9fbfa;
+}
+.site-breadcrumbs {
+    padding-top: 20px;
+}
+.site-breadcrumbs .breadcrumbs li.current {
+    display: none;
+}
+.banner-advice .wrapper {
+    padding: 40px 10px !important;
+    box-sizing: border-box;
+}
+.banner-advice .advice-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0.56px;
+}
+.main-contain.advice > .wrapper {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    max-width: 100%;
+}
+.main-contain.advice .have-sidebar > .wrapper {
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-contain.advice .context-advice {
+    margin-right: 20px;
+    color: #3f4048;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.main-contain.advice .context-advice .featured-image {
+    height: 100%;
+    max-height: 600px;
+    display: inline;
+}
+.main-contain.advice .context-advice .featured-image img {
+    height: 100%;
+    object-fit: cover;
+}
+.main-contain.advice .context-advice .content-info {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.main-contain.advice .context-advice a {
+    color: var(--primary-btn-color);
+}
+.main-contain.advice .context-advice a:hover {
+    text-decoration: underline;
+}
+.main-contain.advice .context-advice h1,
+.main-contain.advice .context-advice h2,
+.main-contain.advice .context-advice h3,
+.main-contain.advice .context-advice h4,
+.main-contain.advice .context-advice h5,
+.main-contain.advice .context-advice h6 {
+    margin-bottom: 20px;
+}
+.main-contain.advice .context-advice strong,
+.main-contain.advice .context-advice b {
+    font-weight: 500;
+}
+.main-contain.advice .context-advice p {
+    margin-bottom: 15px;
+}
+.main-contain.advice .context-advice ul {
+    list-style-type: square;
+}
+.main-contain.advice .context-advice ul li {
+    margin-left: 20px;
+    padding-left: 15px;
+    margin: 30px 0;
+}
+
+.single-advice {
+    background-color: #fafbfb;
+}
+.single-advice .sidebar-advice section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.single-advice .sidebar-advice > div:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+
+
+.related-advice {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+.related-advice .related-wrapper {
+    max-width: var(--main-max-width);
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.related-advice .headtop-advice {
+    margin-bottom: 15px;
+}
+.related-advice .related-title {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.related-advice .related-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 5px;
+}
+.related-advice .related-wrapper .advices {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.related-advice .related-navbutton .swiper-button {
+    top: -20px;
+}
+.related-advice .related-navbutton .swiper-button.swiper-button-prev {
+    left: unset;
+    right: 45px;
+    transform: scaleX(-1);
+}
+.related-advice .related-navbutton .swiper-button::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(../../img/tried-chevronrightblack.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+.related-advice .related-navbutton .swiper-button:hover::after {
+    background-image: url(../../img/tried-chevronrightblue.svg);
+}
+@media only screen and (max-width: 767px) {
+    .main-contain.advice .have-sidebar > .wrapper {
+        display: block;
+    }
+    .main-contain.advice .context-advice {
+        margin-right: 0;
+    }
+    .main-contain.advice .context-advice .content-info {
+        font-size: 80%;
+        line-height: 20px;
+        padding: 0 10px;
+        margin-top: 30px;
+    }
+    .banner-advice .advice-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 56px;
+        letter-spacing: 0.56px;
+    }
+    .banner-advice .wrapper {
+        padding-bottom: 20px !important;
+    }
+    .main-contain.advice .sidebar-advice {
+        margin-top: 30px;
+    }
+    .related-advice {
+        padding: 40px 10px 20px;
+    }
+    .related-advice .related-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .main-contain.advice > .wrapper {
+        padding: 0!important;
+    }
+}

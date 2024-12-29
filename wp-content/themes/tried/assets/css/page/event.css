@@ -1,0 +1,11 @@
+.site-main .main-contain.event > .wrapper {
+    padding: 0;
+    max-width: 100%;
+    background-color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .page-content {
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+}

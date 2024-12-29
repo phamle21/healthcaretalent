@@ -1,0 +1,39 @@
+.help-headwrapper {
+    padding: 30px 0 50px;
+}
+.help-headwrapper::before {
+    content: '';
+    background-color: #F8F8F8;
+    width: 100vw;
+    height: calc(100% + 40px);
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: calc(-50vw + 50%);
+}
+.help-headwrapper .help-titlehead {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.help-headwrapper .help-searchform {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto 0;
+}
+.help-headwrapper .help-searchform form {
+    height: 46px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.help-headwrapper .help-searchform form .search-field {
+    width: 100%;
+    padding: 0 20px;
+}
+.help-headwrapper .help-searchform form .search-submit {
+    width: 100px;
+    background-color: #CB433D;
+}
+.helps {
+    margin-top: 50px;
+}

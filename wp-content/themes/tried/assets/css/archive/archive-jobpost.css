@@ -1,0 +1,159 @@
+.main-contain.joblist .banner-joblist {
+    background-color: #fff;
+}
+.main-contain.joblist .banner-joblist .wrapper {
+    width: 100%;
+    max-width: var(--main-max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 300px;
+    padding: 25px 15px;
+}
+.main-contain.joblist .banner-joblist .toggle-searchjob a {
+    border-radius: 4px;
+    background-color: #e3e5ea;
+    height: 24px;
+    padding: 16px 20px;
+    text-transform: capitalize;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3f4048;
+}
+.main-contain.joblist .banner-joblist .toggle-searchjob a::before {
+    content: '\f002';
+    font-family: "Font Awesome 5 Pro";
+    font-size: 18px;
+    margin-right: 20px;
+}
+.main-contain.joblist .banner-joblist .creatalert-job {
+    margin-left: 30px;
+}
+.main-contain.joblist .banner-joblist .creatalert-job a {
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--primary-btn-color);
+    text-align: center;
+    border: 2px solid var(--primary-btn-color);
+    max-width: 315px;
+    display: block;
+}
+.main-contain.joblist .banner-joblist .creatalert-job a:hover {
+    background-color: rgba(18, 67, 149, 0.1);
+}
+.main-contain.joblist .banner-joblist .creatalert-job a::before {
+    content: '\f0f3';
+    font-family: "Font Awesome 5 Pro";
+    margin-right: 15px;
+}
+.main-contain.joblist .joblist-totalsort {
+    display: grid;
+    grid-template-columns: auto 150px;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+.main-contain.joblist .joblist-totalsort .total-result {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #3f4048;
+}
+.main-contain.joblist .joblist-totalsort .sort-region label {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    color: #706f6f;
+    padding-left: 12px;
+    top: 8px;
+    z-index: 1;
+}
+.main-contain.joblist .joblist-totalsort .sort-region select {
+    border: solid 1px #C2D1D9;
+    font-size: 16px;
+    font-weight: 500;
+    background-position: 95% center;
+    background-image: url(../../img/tried-idropdown.svg);
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #3f4048;
+    height: 57px;
+    border-radius: 2px;
+    padding: 17px 35px 0 9px;
+    width: 100%;
+}
+.main-contain.joblist .joblist-wrapper {
+    display: grid;
+    grid-template-columns: 370px auto;
+    row-gap: 15px;
+}
+.joblist-wrapper .jobs-result {
+    margin-left: 30px;
+}
+.joblist-wrapper .jobs-result .joblist-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .main-contain.joblist .joblist-wrapper {
+        grid-template-columns: unset;
+    }
+    .joblist-wrapper .jobs-result {
+        margin-left: 0;
+    }
+    .main-contain.joblist .joblist-totalsort .total-result {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .main-contain.joblist .banner-joblist .toggle-searchjob a {
+        height: 20px;
+        padding: 14px 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item.head h4 {
+        padding-left: 40px;
+        font-size: 16px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item > a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item {
+        padding: 15px 20px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item:not(.none-toggle, .head) > a::before {
+        font-size: 12px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item li > span {
+        font-size: 13px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item li > span::before {
+        width: 16px;
+        height: 16px;
+    }
+    .job_dropdown_filters .togglefilter_jobs-item li > span {
+        grid-template-columns: 40px auto 50px;
+    }
+    .job_dropdown_filters .year-salary-region select[name="search_level"],
+    .job_dropdown_filters .year-salary-region select[name="search_function"] {
+        padding: 12px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .job_dropdown_filters .year-salary-region button {
+        padding: 10px 24px;
+        font-weight: 500;
+        font-size: 14px;
+        border-width: 1px;
+    }
+}

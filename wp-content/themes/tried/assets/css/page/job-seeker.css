@@ -1,0 +1,250 @@
+.main-contain.jobseeker {
+    background-color: #f6f6f6;
+}
+.main-contain.jobseeker .banner-jobseeker {
+    background: #336699;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.main-contain.jobseeker .banner-jobseeker::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .2);
+}
+.main-contain.jobseeker .banner-jobseeker > .wrapper {
+    box-sizing: border-box;
+    padding: 50px 10px 120px;
+}
+.main-contain.jobseeker .banner-jobseeker > .wrapper.is-logo {
+    display: grid;
+    grid-template-columns: auto 150px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main-contain.jobseeker .banner-jobseeker a {
+    color: #fff;
+}
+.main-contain.jobseeker .backtohome {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.main-contain.jobseeker .backtohome::before {
+    content: '\f060';
+    font-family: "Font Awesome 5 Pro";
+    display: inline-block;
+    margin-right: 10px;
+}
+.main-contain.jobseeker .banner-jobseeker .title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main-contain.jobseeker > .wrapper {
+    padding-top: 0;
+    margin-top: -80px;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-contain.jobseeker .banner-jobseeker > .wrapper {
+        padding: 30px 10px 60px;
+    }
+    .main-contain.jobseeker .banner-jobseeker .title {
+        font-size: 30px;
+    }
+}
+
+
+/* section-jobseeker_filter */
+.section-jobseeker_filter {
+    margin-bottom: 40px;
+}
+
+/* section-jobseeker_sortlayout */
+.section-jobseeker_sortlayout {
+    margin-bottom: 30px;
+}
+.section-jobseeker_sortlayout .jobseeker-sortlayout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-jobseeker_sortlayout .total-result {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-jobseeker_sortlayout .sort-layout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.section-jobseeker_sortlayout .layout-contain {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.section-jobseeker_sortlayout .layout-contain a {
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #1c1e2629;
+    padding: 7px;
+}
+.section-jobseeker_sortlayout .sort-contain::before {
+    content: '';
+    background-image: url(../../img/ico-sort_arrowdown.svg);
+    background-color: #ededed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 3.5px;
+    right: 3.5px;
+    z-index: 1;
+}
+.section-jobseeker_sortlayout .sort-contain {
+    display: flex;
+    align-items: center;
+}
+.section-jobseeker_sortlayout .sort-contain label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout {
+    width: 240px;
+    height: 48px;
+    padding: 0 40px 0 15px;
+    border-radius: 30px;
+    border: 1px solid #20223129;
+    cursor: pointer;
+    background-color: #f6f6f6;
+    display: inline-block;
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout span {
+    line-height: 48px;
+}
+
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout div {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 290px;
+    z-index: 2;
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout:hover > div {
+    display: block;
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout div span {
+    background-color: #fff;
+    display: grid;
+    box-shadow: 0 0 0px 0 #3f4048, 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout div span::before {
+    content: '';
+    display: block;
+    border-top: 12px solid #fff;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -6px;
+    right: 20px;
+    transform: rotate(315deg);
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout div a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout div a.active,
+.section-jobseeker_sortlayout .sort-contain .slct-sortlayout div a:hover {
+    background-color: #236594;
+    color: #fff;
+}
+.section-jobseeker_sortlayout .layout-contain a.active,
+.section-jobseeker_sortlayout .layout-contain a:hover {
+    background-color: #236594;
+}
+.section-jobseeker_sortlayout .layout-contain a.active svg,
+.section-jobseeker_sortlayout .layout-contain a:hover svg {
+    fill: #fff;
+}
+.section-jobseeker_sortlayout .layout-contain a.grid-layout.active svg,
+.section-jobseeker_sortlayout .layout-contain a.grid-layout:hover svg {
+    fill: #236594;
+}
+.section-jobseeker_sortlayout .layout-contain a.active svg path,
+.section-jobseeker_sortlayout .layout-contain a:hover svg path {
+    stroke: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .section-jobseeker_sortlayout .jobseeker-sortlayout {
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .section-jobseeker_sortlayout .sort-layout {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .section-jobseeker_sortlayout .layout-contain {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .section-jobseeker_sortlayout .sort-contain {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .section-jobseeker_sortlayout .sort-contain .slct-sortlayout {
+        width: 175px;
+    }
+}
+
+/* section-jobseeker_jobs */
+.section-jobseeker_jobs {
+    min-height: 200px;
+}
+.section-jobseeker_jobs .jobposts {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.section-jobseeker_jobs .jobposts.grid {
+    grid-template-columns: repeat(2, 50%);
+}
+@media only screen and (max-width: 767px) {
+    .section-jobseeker_jobs .jobposts.grid {
+        grid-template-columns: unset;
+    }
+}

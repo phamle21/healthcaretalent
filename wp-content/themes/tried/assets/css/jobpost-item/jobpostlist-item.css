@@ -1,0 +1,180 @@
+.joblist-item > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.joblist-item > .wrap  {
+    padding: 15px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto 280px;
+    align-items: center;
+    border-radius: 4px;
+}
+.joblist-item .box-contain {
+    border-right: 1px solid #1c1e261f;
+    padding-right: 20px;
+}
+.joblist-item .box-contain .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    height: 28px;
+}
+.joblist-item .box-contain .title a {
+    color: #000;
+}
+.joblist-item .box-contain .headjob {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.joblist-item .box-contain .headjob > li {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+}
+.joblist-item .box-contain .headjob > li:last-child {
+    display: inline-block;
+    margin-right: 0;
+}
+.joblist-item .box-contain .headjob > li a {
+    color: #226594;
+}
+.joblist-item .box-contain .meta {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    height: 26px;
+    display: inline-block;
+}
+.joblist-item .box-contain .meta > li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.joblist-item .box-contain .meta > li,
+.joblist-item .box-contain .meta > li a {
+    color: #3f4048;
+}
+.joblist-item .box-contain .meta > li::before {
+    content: '';
+    background-image: url(../../img/ico-marker.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+.joblist-item .box-contain .meta > li.salary::before {
+    background-image: url(../../img/ico-money.svg);
+}
+.joblist-item .box-contain .content {
+    font-size: 16px;
+    color: #3f4048;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-line-clamp: 7;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    max-height: 168px;
+    height: 100%;
+}
+.joblist-item .box-contain .content > div,
+.joblist-item .box-contain .content > p,
+.joblist-item .box-contain .content > ul {
+    margin-bottom: 5px;
+}
+.joblist-item .box-contain .content ul {
+    list-style: square;
+    padding-left: 20px;
+}
+.joblist-item .action-contain .salary {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.joblist-item .action-contain .salary strong {
+    font-weight: 600;
+}
+.joblist-item .action-contain .actions {
+    z-index: 2;
+    text-align: right;
+}
+.joblist-item .action-contain .actions > a {
+    height: 40px;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: 1px solid #1c1e2614;
+    width: 100%;
+    max-width: 150px;
+    box-sizing: border-box;
+}
+.joblist-item .action-contain .actions > a.savejob {
+    background-color: #fff;
+    color: #3f4048;
+}
+.joblist-item .action-contain .actions > a.savejob.active,
+.joblist-item .action-contain .actions > a.savejob:hover {
+    background-color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .joblist-item > .wrap {
+        grid-template-columns: unset;
+    }
+    .joblist-item .box-contain {
+        padding-right: 0;
+        border-right: 0;
+        border-bottom: 1px solid #1c1e261f;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    .joblist-item .action-contain .actions > a {
+        padding: 7px 10px;
+        height: 28px;
+        font-size: 13px;
+    }
+    .joblist-item .action-contain .actions > a i {
+        font-size: 16px;
+    }
+    .joblist-item .box-contain .title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        height: 20px;
+    }
+    .joblist-item .box-contain .meta {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    .joblist-item .box-contain .actions {
+        margin-top: 15px;
+    }
+    .joblist-item .box-contain .content {
+        font-size: 13px;
+        line-height: 20px;
+        -webkit-line-clamp: 4;
+        max-height: 80px;
+    }
+}

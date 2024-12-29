@@ -1,0 +1,54 @@
+.title-savejob {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #3f4048;
+    margin-bottom: 20px;
+}
+.title-savejob .count {
+    margin-left: 10px;
+    font-weight: 400;
+}
+.no-saved-jobs {
+    width: 100%;
+    max-width: 370px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px 30px 30px;
+    text-align: center;
+    border: 1px solid #C2D1D9;
+    box-sizing: border-box;
+}
+.no-saved-jobs img {
+    width: 100px;
+    margin: 0 auto 40px;
+}
+.no-saved-jobs h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #3f4048;
+    margin-bottom: 10px;
+}
+.no-saved-jobs p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3f4048;
+    margin-bottom: 30px;
+}
+.no-saved-jobs a {
+    background-color: var(--primary-btn-color);
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    height: 55px;
+    padding: 18px 20px;
+    display: block;
+    box-sizing: border-box;
+    color: #fff;
+}
+.no-saved-jobs a:hover {
+    background-color: var(--second-btn-color);
+}

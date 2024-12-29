@@ -1,0 +1,204 @@
+/* modal-tried */
+.modal-tried {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+.modal-tried.opened {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-tried .modal-overlay {
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.modal-tried .modal-wrapper {
+    background-color: #fff;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 5px;
+    transform: translateY(100px);
+    transition: opacity .2s, transform .5s;
+}
+.modal-tried.opened .modal-wrapper {
+    transform: translateY(0);
+}
+.modal-tried .modal-body,
+.modal-tried .modal-head {
+	padding: 15px;
+}
+.modal-tried .modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.modal-tried .modal-body {
+	overflow-y: auto;
+	margin-bottom: 15px;
+	height: 400px;
+	max-height: calc(100vh - 100px);
+}
+.modal-tried .modal-body::before,
+.modal-tried .modal-body::after {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+	opacity: 0;
+    visibility: hidden;
+}
+.modal-tried .modal-body::before {
+	background-color: rgba(255,255,255,.9);
+}
+.modal-tried .modal-body::after {
+	content: 'Đang tải...';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000;
+}
+.modal-tried.loading .modal-body::before,
+.modal-tried.loading .modal-body::after {
+		opacity: 1;
+    visibility: visible;
+}
+.modal-tried .modal-body form .field-inline:not(:last-child) {
+    margin-bottom: 15px;
+}
+.modal-tried .modal-body form .field-inline label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+.modal-tried .modal-body form .field-inline input[type="text"],
+.modal-tried .modal-body form .field-inline textarea {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+}
+.modal-tried .modal-body form .field-inline textarea {
+    height: 64px;
+    line-height: 20px;
+}
+.modal-tried .modal-body form .field-inline button[type="submit"] {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    height: 40px;
+    background-color: #13a213;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.modal-tried .modal-body img {
+	width: 100%;
+}
+.modal-tried .modal-body table thead {
+	background-color: var(--primary-color);
+    color: #fff;
+}
+.modal-tried .modal-body table tbody tr td:nth-child(1),
+.modal-tried .modal-body table tbody tr td:nth-child(3),
+.modal-tried .modal-body table tbody tr td:nth-child(5) {
+	text-align: center;
+}
+.modal-tried .modal-body table th,
+.modal-tried .modal-body table td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+.modal-tried form.modal-form legend {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.modal-tried form.modal-form fieldset .inline-fieldset {
+	display: grid;
+    grid-template-columns: 200px auto;
+    align-items: self-start;
+    row-gap: 10px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+}
+.modal-tried form.modal-form .inline-fieldsetsave {
+    position: sticky;
+    bottom: -20px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.modal-tried form.modal-form .inline-fieldsetsave .action {
+	display: inline-block;
+    width: 100%;
+}
+.modal-tried form.modal-form .inline-fieldsetsave .notice {
+	display: block;
+    margin: 10px 0 0!important;
+}
+.modal-tried form.modal-form fieldset label {
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.modal-tried form.modal-form fieldset textarea,
+.modal-tried form.modal-form fieldset input,
+.modal-tried form.modal-form fieldset select {
+    width: 100%;
+	max-width: 100%;
+    padding: 7px 10px;
+}
+.modal-tried form.modal-form fieldset textarea {
+    height: 70px;
+    vertical-align: top;
+}
+.modal-tried form.modal-form fieldset .input-wrap > * {
+	display: block;
+	margin: 5px 0;
+}
+.modal-tried .modal-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.modal-tried .box-icon--close {
+	cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+	#quick-view-modal .form-input.prod-actions {
+		flex-direction: column;
+	}
+	#quick-view-modal .modal-body {
+		padding: 0;
+	}
+}

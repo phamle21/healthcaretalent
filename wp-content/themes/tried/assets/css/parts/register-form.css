@@ -1,0 +1,164 @@
+#register_form-block .formcol-item .formtitle {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #3f4048;
+}
+#register_form-block .formcol-item .formbanner-small {
+    height: 100%;
+}
+#register_form-block .formcol-item ul.listinfo {
+    margin-top: 40px;
+}
+#register_form-block .formcol-item ul.listinfo li {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #3f4048;
+    display: flex;
+}
+#register_form-block .formcol-item ul.listinfo li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Pro";
+    color: #44b480;
+    margin-right: 10px;
+    font-size: 18px;
+}
+#register_form-block .formcol-item .btnregister {
+    margin-top: 50px;
+}
+#register_form-block .formcol-item .btnregister a {
+    border: 2px solid var(--primary-btn-color);
+    color: #1b4c98;
+    padding: 17px 20px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    display: block;
+}
+#register_form-block .formcol-item .btnregister a:hover {
+    background-color: rgba(18, 67, 149, 0.1);
+}
+
+#register_form-block form.register_form label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3f4048;
+    display: block;
+    margin-bottom: 7px;
+}
+#register_form-block form.register_form label .formhelp {
+    margin-left: 3px;
+    cursor: help;
+}
+#register_form-block form.register_form label .formhelp::before {
+    content: '\f059';
+    font-family: "Font Awesome 5 Pro";
+    color: #706f6f;
+}
+#register_form-block form.register_form .col-field:not(:last-child) {
+    margin-bottom: 20px;
+}
+#register_form-block form.register_form input[type="text"],
+#register_form-block form.register_form input[type="password"] {
+    width: 100%;
+    height: 52px;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 1px solid #1c1e263d;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #3f4048;
+    font-weight: 400;
+    line-height: 20px;
+}
+#register_form-block form.register_form .col-field.remember input[type="checkbox"] {
+    display: none;
+}
+#register_form-block form.register_form .col-field.remember label {
+    padding: 0 12px 0 30px;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#register_form-block form.register_form .col-field.remember label::before {
+    content: '\f0c8';
+    font-family: "Font Awesome 5 Pro";
+    height: 24px;
+    width: 24px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+}
+#register_form-block form.register_form .col-field.remember input:checked + label::before {
+    content: '\f14a';
+}
+#register_form-block form.register_form .col-field.submit {
+    margin-top: 20px;
+}
+#register_form-block form.register_form .col-field.submit button[type="submit"] {
+    background-color: #236594;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding: 14px 24px;
+    letter-spacing: 0.3px;
+    outline: none;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+#register_form-block form.register_form .col-inlineor {
+    margin: 20px 0 18px;
+    text-align: center;
+}
+#register_form-block form.register_form .col-inlineor::before {
+    content: '';
+    display: block;
+    background-color: #cccccc;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: 1px;
+}
+#register_form-block form.register_form .col-inlineor span {
+    width: 50px;
+    display: inline-block;
+    background-color: #f5f5f5;
+}
+#register_form-block .linkanothers {
+    margin-top: 10px;
+}
+#register_form-block .linkanothers > a {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding: 17px 20px 16px;
+    color: #3f4048;
+    text-align: center;
+    border: 2px solid var(--primary-btn-color);
+    display: block;
+}
+#register_form-block .linkanothers > a:hover {
+    background-color: rgba(18, 67, 149, 0.1);
+}
+#register_form-block .linkanothers > a i {
+    color: #0079ba;
+    margin-right: 20px;
+    font-size: 22px;
+}

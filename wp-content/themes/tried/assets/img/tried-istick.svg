@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M14.2832,8.2169,8.8251,13.6312a.3629.3629,0,0,1-.5132-.0021L5.7148,11.011a.3628.3628,0,0,1,.002-.5132l.2577-.2556a.3629.3629,0,0,1,.5132.0021l2.086,2.1028L13.5164,7.444a.3629.3629,0,0,1,.5132.002l.2556.2577A.3628.3628,0,0,1,14.2832,8.2169ZM10,16.5323A6.5323,6.5323,0,1,1,16.5323,10,6.5319,6.5319,0,0,1,10,16.5323ZM10,2.5A7.5,7.5,0,1,0,17.5,10,7.5,7.5,0,0,0,10,2.5Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="2.5" y="2.5" width="15" height="15"/>
+    </clipPath>
+  </defs>
+  <title>MP - Applied</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <image width="64" height="64" transform="translate(2.36 2.28) scale(0.24)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAACXBIWXMAAC4jAAAuIwF4pT92AAABIElEQVRoQ+2ZIXKCQQyFPzrRHICp4QQYHLaH4Ug9TC2qCDgAgwF8OUBfRaheufsy+5nfRORN8rK7+Rffl5/j9Ykn2/Uyjtfn59etFTko+4/3QEhqRY6KCBC2+YNCAlsFygoYtxAKBL4CROCcPxCSfBVIygq4CoAco7ZTaJp4AKaJexM4V4CsgLEA0sStoJGZJu5NhYPM/EWGewtJxpe5aeLulDCx+2JLOJ/ErzHq3ENh/iSem7nOlDCx+xjNjy8Bch6jJUxsLEC5F7LNnyJ7IUm/rbBh8Tfxm23uME08BFkBWwEVKlDiJG7FjUuFFrI3cQEP+Ob/v1bB+zKH9xzy/9Ftfpuu8oPDVsBcr/cml7u+Y1RocTjdD+dHK3JQdpvVH9K6Crx4f3EmAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

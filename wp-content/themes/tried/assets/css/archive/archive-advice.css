@@ -1,0 +1,70 @@
+.site-main {
+    background-color: #fff!important;
+}
+.advices {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333333%);
+    row-gap: 40px;
+    column-gap: 10px;
+    width: calc(100% - 20px);
+}
+.advice-totalsort {
+    padding: 0 10px 40px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #706f6f;
+    font-weight: 400;
+}
+.site-breadcrumbs,
+.banner-advice {
+    background-color: #f5f5f5;
+}
+.site-breadcrumbs {
+    padding-top: 20px;
+}
+.banner-advice .wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    row-gap: 10px;
+    padding: 0 10px 70px !important;
+    box-sizing: border-box;
+}
+.banner-advice .advice-title {
+    font-size: 42px;
+    line-height: 1.19;
+    font-weight: 700;
+}
+.banner-advice form.search-form {
+    height: 56px;
+}
+.banner-advice form.search-form .search-field {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.banner-advice form.search-form .search-submit {
+    width: 58px;
+    height: 48px;
+    background-color: var(--primary-btn-color);
+    font-size: 16px;
+    line-height: 1.5;
+    position: absolute;
+    right: 5px;
+    border-radius: 4px;
+}
+.banner-advice form.search-form .search-submit:hover {
+    background-color: var(--second-btn-color);
+}
+@media only screen and (max-width: 767px) {
+    .advices {
+        grid-template-columns: repeat(2, 50%);
+        width: calc(100% - 10px);
+    }
+    .banner-advice .advice-title {
+        font-size: 28px;
+    }
+    .banner-advice .wrapper {
+        padding-bottom: 30px !important;
+    }
+}

@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M15.5714,16.0938v-5.625A.4679.4679,0,0,0,15.1071,10H4.8929a.4679.4679,0,0,0-.4643.4688v5.625a.4679.4679,0,0,0,.4643.4687H15.1071A.4679.4679,0,0,0,15.5714,16.0938ZM6.2857,9.0625h7.4286V7.1875a3.7145,3.7145,0,1,0-7.4286,0ZM16.5,10.4688v5.625A1.4,1.4,0,0,1,15.1071,17.5H4.8929A1.4,1.4,0,0,1,3.5,16.0938v-5.625A1.4,1.4,0,0,1,4.8929,9.0625h.4642V7.1875a4.6434,4.6434,0,1,1,9.2858.044v1.831h.4642A1.4,1.4,0,0,1,16.5,10.4688ZM10,14.8047a.5849.5849,0,0,1-.58-.5859v-1.875a.58.58,0,1,1,1.1608,0v1.875A.5849.5849,0,0,1,10,14.8047Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="3.5" y="2.4913" width="13" height="15.0087"/>
+    </clipPath>
+  </defs>
+  <title>MP - Security</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <image width="55" height="64" transform="translate(3.32 2.28) scale(0.24)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAABACAIAAAAxnnhoAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA8ElEQVRoQ+2YMQ4CMQwE95D/X/MY2qu4Ah6ArgF67gEsRejTWIpHytYuRnY22Xi5Pj7bfqi2YtuP8+XZKxuskGW7VzZYIVnVIRW2VB4zJBMmbglACYBU2K6P2XoJoDTB49M9WZruyVOI0ksGZXXG6Z5MYW51QlYXYuI2Im0gejndkybI1sCivD3lRx6Eb8/cbSSK4h7ETSRR3FMeE+MeAiXhuuT8x21/e2WDxXDPqTqgpOmeTLVe1qcUoZect6dXNFyQiTPcQzmX9SH/e6L6aQOyGQSMPAjBDZIvm3sAlHMzmKQwIawv6+213t+9ssH6AemByj1ms0vzAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

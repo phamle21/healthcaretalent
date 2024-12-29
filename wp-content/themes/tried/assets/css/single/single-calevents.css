@@ -1,0 +1,628 @@
+.main-contain.calevents-detail > .wrapper {
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#calevent-upcoming_countdown .countdown-section {
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #ffffff5c;
+    background-color: #9797979c;
+    width: 100px;
+    height: 90px;
+    padding: 10px 10px 0;
+    box-sizing: border-box;
+}
+#calevent-upcoming_countdown .countdown-section:not(:last-child) {
+    margin-right: 30px;
+}
+#calevent-upcoming_countdown .countdown-section span {
+    display: block;
+}
+#calevent-upcoming_countdown .countdown-section .countdown-amount {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+#calevent-upcoming_countdown .countdown-section .countdown-period {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+@media only screen and (max-width: 767px) {
+    .main-contain.calevents-detail > .wrapper {
+        padding: 0 10px!important;
+    }
+    #calevent-upcoming_countdown .countdown-section {
+        width: 70px;
+        height: 70px;
+    }
+    #calevent-upcoming_countdown .countdown-section .countdown-amount {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    #calevent-upcoming_countdown .countdown-section .countdown-period {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #calevent-upcoming_countdown .countdown-section:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+/* section-event_pushtime */
+.section-event_pushtime .section-overlay,
+.section-event_pushtime .section-overlay::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.section-event_pushtime .section-overlay {
+    left: -10px;
+    width: 100vw;
+    background-color: #222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-event_pushtime .section-overlay::before {
+    content: '';
+    background-color: rgba(0, 0, 0, .3);
+}
+.section-event_pushtime .section-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 120px 0;
+    text-align: center;
+}
+.section-event_pushtime .section-wrapper,
+.section-event_pushtime .section-wrapper a {
+    color: #fff;
+}
+.section-event_pushtime .info-block h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.section-event_pushtime .info-block h5 span {
+    display: block;
+}
+.section-event_pushtime .info-block h3 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.section-event_pushtime .timedown-block {
+    margin-bottom: 70px;
+}
+.section-event_pushtime .viewmore-block a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #ffffff5c;
+    padding: 12px 25px;
+}
+.section-event_pushtime .viewmore-block a.registerform {
+    margin-right: 15px;
+    background-color: #226594;
+    border-color: transparent;
+}
+@media only screen and (max-width: 767px) {
+    .section-event_pushtime .section-wrapper {
+        padding: 60px 0;
+    }
+    .section-event_pushtime .info-block h3 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .section-event_pushtime .timedown-block {
+        margin-bottom: 30px;
+    }
+    .section-event_pushtime .viewmore-block a {
+        font-size: 12px;
+    }
+    .section-event_pushtime .viewmore-block a.registerform {
+        margin-right: 5px;
+    }
+}
+
+
+/* section-event_related */
+.section-event_related {
+    padding: 30px 0;
+}
+.section-event_related .section-wrapper {
+    max-width: var(--main-max-width);
+    margin: 0 auto;
+}
+.section-event_related .headtop-block {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.section-event_related .headtop-block .related-title {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.section-event_related .headtop-block .related-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 5px;
+}
+.section-event_related .headtop-block a.related-viewall {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+.section-event_related .headtop-block a.related-viewall::after {
+    content: '';
+    background-image: url(../../img/ico-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: center;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    transform: rotate(270deg);
+    margin-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .section-event_related .headtop-block {
+        display: block;
+    }
+    .section-event_related .headtop-block .related-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .section-event_related .headtop-block a.related-viewall {
+        margin-top: 15px;
+        display: inline-block;
+    }
+}
+
+/* section-event_registerform */
+.section-event_registerform {
+    padding: 90px 0 70px;
+    background-color: #fafbfb;
+}
+.section-event_registerform .section-wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #1c1e2614;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.section-event_registerform .info-block {
+    margin-bottom: 40px;
+}
+.section-event_registerform .info-block h4 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+}
+.section-event_registerform .form-block .wpcf7-form-control-wrap {
+    display: flex;
+    flex-flow: wrap;
+}
+.section-event_registerform .form-block form.wpcf7-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.section-event_registerform .form-block form.wpcf7-form > div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.width-50 {
+    width: 50%;
+}
+.section-event_registerform .form-block form.wpcf7-form > div > p {
+    margin: 0 10px;
+}
+.section-event_registerform .form-block label {
+    margin-bottom: 5px;
+    display: block;
+}
+.section-event_registerform .form-block .wpcf7-form-control-wrap input,
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: transparent;
+    color: #757575;
+}
+.section-event_registerform .form-block .wpcf7-form-control-wrap input::placeholder,
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea::placeholder {
+    color: #757575;
+}
+.section-event_registerform .form-block .wpcf7-form-control-wrap input:hover,
+.section-event_registerform .form-block .wpcf7-form-control-wrap input:active,
+.section-event_registerform .form-block .wpcf7-form-control-wrap input:focus,
+.section-event_registerform .form-block .wpcf7-form-control-wrap input:focus-visible,
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea:hover,
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea:active,
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea:focus,
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea:focus-visible {
+    border-color: #000;
+}
+.section-event_registerform .form-block .wpcf7-form-control-wrap textarea {
+    height: 70px;
+    outline: none;
+    resize: none;
+}
+.section-event_registerform .form-block form.wpcf7-form .wpcf7-not-valid-tip {
+    font-size: 13px;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.submit-block {
+    margin-top: 5px;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.chkbox-block .wpcf7-form-control-wrap {
+    display: block;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.chkbox-block .wpcf7-list-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.chkbox-block .wpcf7-list-item input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    transform: translateY(2px);
+}
+.section-event_registerform .form-block form.wpcf7-form > div.captcha-block {
+	display: grid;
+	width: 50%;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.captcha-block > div {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.captcha-block > img {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+	float: unset !important;
+    width: calc(100% - 20px) !important;
+    padding-left: 10px;
+    padding-right: 10px;
+	height: 52px;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.captcha-block > a {
+    grid-column: 3;
+    grid-row: 1;
+	align-items: center;
+    justify-content: center;
+}
+.section-event_registerform .form-block form.wpcf7-form > div.captcha-block > a img {
+	margin-bottom: 0;
+}
+.section-event_registerform .form-block .wpcf7-submit {
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    z-index: 1;
+}
+.section-event_registerform .form-block .wpcf7-submit:hover {
+    opacity: .7;
+}
+@media only screen and (max-width: 767px) {
+    .section-event_registerform {
+        padding: 30px 0;
+    }
+	.section-event_registerform .form-block form.wpcf7-form > div.captcha-block,
+    .section-event_registerform .form-block form.wpcf7-form > div.width-50 {
+        width: 100%;
+    }
+    .section-event_registerform .form-block .wpcf7-form-control-wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section-event_registerform .form-block .wpcf7-submit {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-event_registerform .info-block h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .section-event_registerform .section-wrapper {
+        padding: 20px 10px;
+    }
+}
+
+/* section-event_schedule */
+.section-event_schedule {
+    padding: 50px 0 30px;
+    background-color: #fafbfb;
+}
+.section-event_schedule .section-wrapper {
+    max-width: var(--main-max-width);
+    margin: 0 auto;
+}
+.section-event_schedule .info-block {
+    text-align: center;
+}
+.section-event_schedule .info-block h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.section-event_schedule .info-block h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #588caf;
+    margin-bottom: 10px;
+}
+.section-event_schedule .scheduletab-block {
+    margin-top: 50px;
+}
+.section-event_schedule .scheduletab-block .scheduletab-nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section-event_schedule .scheduletab-block .scheduletab-nav a {
+    display: inline-block;
+    width: 100%;
+    max-width: 30%;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom: 1px solid #1c1e261f;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+.section-event_schedule .scheduletab-block .scheduletab-nav a.active {
+    border-bottom: 1.5px solid #0A86CD;
+    color: #0A86CD;
+    font-weight: 600;
+}
+.section-event_schedule .scheduletab-block .scheduletab-content {
+    padding: 30px 0;
+}
+.section-event_schedule .scheduletab-block .scheduletab-content .scheduletab-content_item {
+    display: none;
+}
+.section-event_schedule .scheduletab-block .scheduletab-content .scheduletab-content_item.active {
+    display: block;
+}
+.section-event_schedule .agenda_calevents .agenda_calevent-item {
+    display: grid;
+    grid-template-columns: 150px auto;
+    row-gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.section-event_schedule .agenda_calevents .agenda_calevent-item:not(:last-child) {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #1c1e2614;
+}
+.section-event_schedule .agenda_calevents .agenda_calevent-item span {
+    color: #777;
+    font-weight: 500;
+}
+.section-event_schedule .agenda_calevents .agenda_calevent-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.section-event_schedule .agenda_calevents .agenda_calevent-item p {
+    margin-top: 10px;
+}
+.section-event_schedule .picture_calevents {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333333%);
+}
+.section-event_schedule .picture_calevents .picture_calevent-item {
+    margin: 10px;
+    height: 250px;
+}
+.section-event_schedule .picture_calevents .picture_calevent-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.section-event_schedule .sponsor-title,
+.section-event_schedule .sponsor-description {
+    text-align: center;
+}
+.section-event_schedule .sponsor-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-event_schedule .sponsor-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 5px;
+}
+.section-event_schedule .sponsor_calevents {
+    margin-top: 30px;
+}
+.section-event_schedule .sponsor_calevents .sponsor_calevents-item {
+    text-align: center;
+}
+.section-event_schedule .sponsor_calevents .sponsor_calevents-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.section-event_schedule .sponsor_calevents .sponsor_calevents-item .sponsor-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.section-event_schedule .sponsor_calevents .sponsor_calevents-item .sponsor_pictures .sponsor_picture-item {
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.section-event_schedule .sponsor_calevents .sponsor_calevents-item .sponsor_pictures .sponsor_picture-item:not(:last-child) {
+    margin-right: 20px;
+}
+.section-event_schedule .sponsor_calevents .sponsor_calevents-item img {
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 767px) {
+    .section-event_schedule {
+        padding: 30px 0;
+    }
+    .section-event_schedule .agenda_calevents .agenda_calevent-item {
+        grid-template-columns: unset;
+    }
+    .section-event_schedule .agenda_calevents .agenda_calevent-item h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .section-event_schedule .agenda_calevents .agenda_calevent-item p {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .section-event_schedule .scheduletab-block {
+        margin-top: 30px;
+    }
+    .section-event_schedule .scheduletab-block .scheduletab-nav a {
+        font-size: 15px;
+    }
+}
+
+
+/* section-event_content */
+.section-event_content {
+    padding: 80px 0 30px;
+}
+.section-event_content .section-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    row-gap: 20px;
+    max-width: var(--main-max-width);
+    margin: 0 auto;
+}
+.section-event_content .info-block {
+    padding-right: 25px;
+}
+.section-event_content .info-block h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.section-event_content .info-block h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #588caf;
+    margin-bottom: 10px;
+}
+.section-event_content .content-block > div {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    overflow: hidden;
+}
+.section-event_content .content-block div h1,
+.section-event_content .content-block div h2,
+.section-event_content .content-block div h3,
+.section-event_content .content-block div h4,
+.section-event_content .content-block div h5,
+.section-event_content .content-block div h6 {
+    line-height: 52px;
+}
+.section-event_content .content-block > div::before {
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
+    display: none;
+    pointer-events: none;
+}
+.section-event_content .content-block.load-showmore > div::before,
+.section-event_content .content-block.showmore > div::before {
+    display: block;
+}
+.section-event_content .content-block .content-collapse {
+    margin-top: 20px;
+    padding: 10px 30px 10px 50px;
+    border-radius: 30px;
+    border: 1px solid #20223129;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+    color: #0e0f14;
+}
+.section-event_content .content-block .content-collapse::before {
+    content: '';
+    background-image: url(../../img/ico-doublearrow.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 25px;
+    top: 12px;
+}
+.section-event_content .content-block.showmore .content-collapse::before {
+    transform: rotate(180deg);
+}
+@media only screen and (max-width: 767px) {
+    .section-event_content {
+        padding-top: 40px;
+    }
+    .section-event_content .section-wrapper {
+        grid-template-columns: unset;
+    }
+    .section-event_content .info-block {
+        padding-right: 0;
+    }
+}
