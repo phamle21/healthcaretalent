@@ -22,3 +22,6 @@ body .request_callback-form select {
         padding-top: 50px;
     }
 }
+.section-about-reverseboxs .reversebox-item:nth-child(2n) .wrap p{
+    direction: ltr;
+}
